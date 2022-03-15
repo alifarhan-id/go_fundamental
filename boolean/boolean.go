@@ -1,8 +1,8 @@
-package main
+package boolean
 
 import "fmt"
 
-func main() {
+func DoBoolean() {
 	fmt.Println("true", true)
 	fmt.Println("false", false)
 }

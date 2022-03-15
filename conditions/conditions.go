@@ -1,8 +1,8 @@
-package main
+package conditions
 
 import "fmt"
 
-func main() {
+func DoConditions() {
 	point := 10
 
 	if point == 10 {

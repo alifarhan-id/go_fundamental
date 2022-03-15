@@ -1,8 +1,8 @@
-package main
+package string
 
 import "fmt"
 
-func main() {
+func DoString() {
 	fmt.Println("i write code everyday")
 	fmt.Println("i not write code everyday")
 	fmt.Println("do i write code everyday ?")

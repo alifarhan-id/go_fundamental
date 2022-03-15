@@ -1,8 +1,8 @@
-package main
+package operator
 
 import "fmt"
 
-func main() {
+func DoOperator() {
 	value := (((2+6)%3)*4 - 2) / 3
 	isEqual := (value == 2)
 

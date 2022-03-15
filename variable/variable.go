@@ -1,8 +1,8 @@
-package main
+package variable
 
 import "fmt"
 
-func main() {
+func DoVariable() {
 	var name string
 	var age = 27
 	var ageJhon = 35

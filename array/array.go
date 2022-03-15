@@ -1,8 +1,8 @@
-package main
+package array
 
 import "fmt"
 
-func main() {
+func DoArray() {
 	fmt.Println("==== array =====")
 	var vocab = [6]string{
 		"eat",

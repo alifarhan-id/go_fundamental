@@ -1,8 +1,8 @@
-package main
+package constant
 
 import "fmt"
 
-func main() {
+func DoConstant() {
 	const firstName = "ali" //declaration constant
 	const lastName = "farhan"
 

@@ -1,8 +1,8 @@
-package main
+package slice
 
 import "fmt"
 
-func main() {
+func DoSlice() {
 	fmt.Println("====== slice ===")
 
 	month := [...]string{

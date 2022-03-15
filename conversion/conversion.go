@@ -1,8 +1,8 @@
-package main
+package conversion
 
 import "fmt"
 
-func main() {
+func DoConversion() {
 	var value32 int32 = 100000
 	var value64 int64 = int64(value32)
 	var value8 int8 = int8(value32)
