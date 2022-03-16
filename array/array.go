@@ -4,19 +4,24 @@ import "fmt"
 
 func DoArray() {
 	fmt.Println("==== array =====")
-	var vocab = [6]string{
-		"eat",
-		"sleep",
-		"admire",
-		"bring",
-		"dring",
-		"love",
+	var month = [...]string{
+		"january",
+		"february",
+		"march",
+		"april",
+		"mei",
+		"juni",
+		"juli",
+		"agustus",
+		"september",
+		"october",
+		"november",
+		"desember",
 	}
 
-	for i := 0; i < len(vocab); i++ {
-		fmt.Println(vocab[i])
-		if i == 6 {
-			fmt.Println("array len is 6")
-		}
+	for i := 0; i < len(month); i++ {
+
+		fmt.Println("bulan ke ", i+1, "=", month[i])
 	}
+
 }

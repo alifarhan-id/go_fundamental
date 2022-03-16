@@ -1,6 +1,8 @@
 package main
 
 import (
+	"alifarhan1230/go_fundamental/Map"
+	"alifarhan1230/go_fundamental/array"
 	"alifarhan1230/go_fundamental/boolean"
 	"alifarhan1230/go_fundamental/conditions"
 	"alifarhan1230/go_fundamental/constant"
@@ -8,6 +10,7 @@ import (
 	"alifarhan1230/go_fundamental/helloworld"
 	"alifarhan1230/go_fundamental/number"
 	"alifarhan1230/go_fundamental/operator"
+	"alifarhan1230/go_fundamental/slice"
 	"alifarhan1230/go_fundamental/string"
 	"alifarhan1230/go_fundamental/variable"
 	"bufio"
@@ -30,6 +33,9 @@ func main() {
 	fmt.Println("8. Type Declaration")
 	fmt.Println("9. operation")
 	fmt.Println("10. conditions")
+	fmt.Println("11. Array")
+	fmt.Println("12. Slice")
+	fmt.Println("13. Map")
 	fmt.Println("99. Exit")
 
 	for {
@@ -70,6 +76,13 @@ func doAction() {
 		operator.DoOperator()
 	case 10:
 		conditions.DoConditions()
+	case 11:
+		array.DoArray()
+	case 12:
+		slice.DoSlice()
+	case 13:
+		Map.DoMap()
+
 	case 99:
 		os.Exit(2)
 
