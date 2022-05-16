@@ -7,6 +7,7 @@ import (
 	"alifarhan1230/go_fundamental/conditions"
 	"alifarhan1230/go_fundamental/constant"
 	"alifarhan1230/go_fundamental/conversion"
+	"alifarhan1230/go_fundamental/function"
 	"alifarhan1230/go_fundamental/helloworld"
 	"alifarhan1230/go_fundamental/number"
 	"alifarhan1230/go_fundamental/operator"
@@ -36,6 +37,12 @@ func main() {
 	fmt.Println("11. Array")
 	fmt.Println("12. Slice")
 	fmt.Println("13. Map")
+	fmt.Println("14. function")
+	fmt.Println("15. function with return value")
+	fmt.Println("16. function with return named value")
+	fmt.Println("17. function as parameter")
+	fmt.Println("18. function return multiple values")
+
 	fmt.Println("99. Exit")
 
 	for {
@@ -82,7 +89,16 @@ func doAction() {
 		slice.DoSlice()
 	case 13:
 		Map.DoMap()
-
+	case 14:
+		function.GetDoCount()
+	case 15:
+		function.PrintNumber()
+	case 16:
+		function.GetMahasiswa()
+	case 17:
+		function.CallStringWithFilter()
+	case 18:
+		function.CallBio()
 	case 99:
 		os.Exit(2)
 
